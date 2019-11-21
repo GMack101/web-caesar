@@ -45,12 +45,7 @@ def encrypt():
 
 
 
-    
-
-
-
-
-@app.route("/")
+    @app.route("/")
 def index():
     return form
 
